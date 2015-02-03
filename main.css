@@ -3,12 +3,13 @@ body {
   text-align: center;
   background: url("http://i.imgur.com/2WWFUAW.jpg");
   background-size: cover;
+  background-repeat: no-repeat; 
   color: #fff;
   font-family: Century Gothic, monospace, sans-serif;
 }
 
 h1 {
-	font-family: Century Gothic, monospace, sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	}
 	
 hr {
