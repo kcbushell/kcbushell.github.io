@@ -1,16 +1,16 @@
 body {
-  padding: 0 20px;
-  text-align: center;
-  background: url("http://i.imgur.com/2WWFUAW.jpg");
-  background-size: cover;
-  background-repeat: no-repeat; 
-  color: #fff;
-  font-family: Century Gothic, monospace, sans-serif;
+	background: url("images/palms.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	font-family: 'Century Gothic', monospace;
+	padding: 0 20px;
+	text-align: center;
 }
 
 h1 {
 	font-family: 'Josefin Sans', sans-serif;
-	}
+}
 	
 hr {
   width: 200px;
@@ -18,6 +18,5 @@ hr {
 #slogan {
 	color:#C2C2D6;
 	font-size: 20px;
-	font-family: "Century Gothic", monospace, sans-serif;
 	font-style: italic;
 }
