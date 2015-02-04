@@ -3,24 +3,15 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #fff;
-<<<<<<< Updated upstream
-	font-family: 'Century Gothic', monospace;
-	padding: 0 20px;
-}
-a { }
-h1 {
 	font-family: 'Josefin Sans', sans-serif;
-	text-align: center;
-=======
-	font-family: 'Josefin Sans'; sans-serif;
+	font-size: 20px;
 	padding: 0 20px;
 	text-align: center;
 }
 #intro {
 		text-align: center;
 }
-
-#maincopy{
+#maincopy {
 	text-align: left;
 } 
 
@@ -48,33 +39,24 @@ h3 {
 	font-size:30px;
 	text-align: center;
 	letter-spacing: 2px;
->>>>>>> Stashed changes
-}
-	
+
 hr {
-  width: 600px;
+	width: 200px;
 }
-<<<<<<< Updated upstream
-p { }
-ul { }
+
 #slogan {
-	color:#C2C2D6;
-	font-size: 20px;
-	font-style: italic;
+	color: #fff;
+	font-family: 'Open Sans'; sans-serif;
+	font-size: 25px;
 	text-align: center;
-=======
-p { 
+}
+
+ p{ 
 	font-size: 20px;
-	line-height: 1.5em
->>>>>>> Stashed changes
+	line-height: 2.5em
+
 }
 ul { 
 	font-size: 20px;
 	line-height: 1.5em
-}
-#slogan {
-	color: #fff;
-	font-family: 'Josefin Sans'; sans-serif;
-	font-size: 25px;
-	text-align: center;
 }
