@@ -1,3 +1,4 @@
+* {margin:0;padding:0;box-sizing:border-box;}
 body {
 	background: url("images/palms.jpg");
 	background-size: cover;
@@ -9,7 +10,7 @@ body {
 	text-align: center;
 }
 #intro {
-		text-align: center;
+	text-align: center;
 }
 #maincopy {
 	text-align: left;
@@ -17,6 +18,7 @@ body {
 
 a { 
 	color: rgb(235,217, 81);
+	text-decoration:none;
 }
 h1 {
 	font-family: 'Open Sans', sans-serif;
@@ -39,7 +41,7 @@ h3 {
 	font-size:30px;
 	text-align: center;
 	letter-spacing: 2px;
-
+}
 hr {
 	width: 200px;
 }
