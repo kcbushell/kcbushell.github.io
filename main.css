@@ -1,0 +1,64 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+body {
+	background: url("images/palms.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	padding: 0 20px;
+	text-align: center;
+}
+#intro {
+	text-align: center;
+}
+#maincopy {
+	text-align: left;
+} 
+
+a { 
+	color: rgb(235,217, 81);
+	text-decoration:none;
+}
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 45px;
+	letter-spacing: 8px;
+	text-align: center;
+	text-transform: uppercase;
+}
+h2 {
+	color: rgb(235,217, 81);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: rgb(235,217, 81);
+	font-family: 'Open Sans', sans-serif;
+	font-size:30px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+hr {
+	width: 200px;
+}
+
+#slogan {
+	color: #fff;
+	font-family: 'Open Sans'; sans-serif;
+	font-size: 25px;
+	text-align: center;
+}
+
+ p{ 
+	font-size: 20px;
+	line-height: 2.5em
+
+}
+ul { 
+	font-size: 20px;
+	line-height: 1.5em
+}
