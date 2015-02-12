@@ -41,36 +41,23 @@ a {
 }
 nav {
   float: right;
-
 }
 
 nav ul {
-  background-color: #000000;
   list-style: none;
   text-align: center;
   padding: 2.5em;
   margin: .5em;
 }
 nav li {
-  color: rgb(166,235,198);
   font-family: 'Lato', sans-serif;
-  font-size: .5em;
-  display: inline-block;
-
-}
- 
-nav a {
-  color: rgb(166,235,198);
-  text-decoration: none;
-  display: block;
+  float:left;
+  width: 120px;
+  border-bottom: none;
+  height: 50px;
 }
 nav a:hover {
   text-decoration:underline;
-}
- 
-nav a.active {
-  color: rgb(166,235,198);
-  cursor: pointer;
 }
 .clearfix:after { 
 	content: "."; 
@@ -81,11 +68,7 @@ nav a.active {
 }
 /*@media screen and (min-width: 600px) {*/
   nav li {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
+   
   }
 
 #WhatRad p{
@@ -115,7 +98,6 @@ nav a.active {
 
 #mainimage a:hover {
   opacity: .6;
-
 }
 #mainimage {
   padding: 1.5em;
