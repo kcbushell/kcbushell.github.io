@@ -72,8 +72,14 @@ nav a.active {
   color: rgb(166,235,198);
   cursor: pointer;
 }
-
-/*@media screen and (min-width: 600px) {
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+/*@media screen and (min-width: 600px) {*/
   nav li {
     width: 120px;
     border-bottom: none;
@@ -134,4 +140,4 @@ nav a.active {
   color: rgb(211, 211, 211);
 }
 
- } */
+/* } */
