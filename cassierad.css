@@ -167,10 +167,15 @@ a {
 /*@media screen and (min-width: 600px) {*/
   
 
-#WhatRad p{
-  font-family: 'Lato' sans-serif;
-  color: rgb(135,135,135);
-  text-transform: none;
+.WhatRad {
+margin: 64px 150px;
+width: auto;
+text-align: justify;
+font-family: "Lato", sans-serif;
+color: #525251;
+font-size: 17px;
+line-height: 27px;
+margin-bottom: 68px;
 }
 
 #CassieWork {
