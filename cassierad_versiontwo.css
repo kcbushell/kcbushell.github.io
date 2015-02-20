@@ -131,12 +131,23 @@ header, footer {
 
 }
 
-h1, h2 {
-  color: rgb(166,235,198);
-  font-family: 'Bitter', serif;
+h1 {
+  color: rgb(127,235,198);
+  font-family: 'Montserrat', sans-serif;
   font-weight:700;
   font-size: 3em;
   letter-spacing: .1em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(127,235,198);
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  font-size: 2.4em;
+  letter-spacing: .1em;
+  line-height: 1.5em;
   text-align: center;
 }
 
@@ -168,13 +179,15 @@ a {
   
 
 .WhatRad {
-margin: 64px 150px;
-width: auto;
+background: #F5F5F4;
+color: #535352;
+font-family: "Abel", sans-serif;
+font-size: 1.3em;
+margin: 60px;
 text-align: justify;
-font-family: "Lato", sans-serif;
-color: #525251;
-font-size: 17px;
-line-height: 27px;
+padding-top: .5em;
+padding-left: .5em;
+padding-right: .5em;
 }
 
 #CassieWork {
