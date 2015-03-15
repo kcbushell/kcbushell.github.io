@@ -20,7 +20,6 @@ a {
 	text-decoration: none;
 
 
-
 /* NAV BAR */
 
 }
@@ -153,17 +152,23 @@ padding-bottom: 7%;
 }
 
 #MyWork {
-  padding: 2.5em;
-  margin: 1.5em;
-
+  max-width: 100%;
+ padding: 2.5em;
+  margin: 4.5em;
   }
  
- #imagelist {
-  font-size: 0;
-  width: 75%;
-  margin: 0 auto;
+ #MyWork img {
+  width: 100%;
  }
 
+ #imagelist {
+  font-size: 0;
+  max-width: 1400px;
+  margin: 0 auto;
+ }
+#imagelist img {
+	width:33.33%;
+}
  #imagelist a:hover {
   opacity: .5;
  }
@@ -171,18 +176,59 @@ padding-bottom: 7%;
  /* CURRENT WORK */
 
 .project-container {
+  max-width: 960px;
 margin: 0 auto;
-width: 48em;
 }
 
-.project-images {
-margin: 0 auto;
-width: 48em;
-padding-bottom: 1.5em;
+.project-container img {
+  width:100%;
+
 }
+.project-images {
+margin: 0, auto;
+width: 960px;
+padding-bottom: 30px;
+}
+
 .personalprojects {
   padding-bottom: 1em;
 }
+
+figure {
+  vertical-align:top;
+  max-width:auto;
+  height: auto;
+  position:relative;
+  overflow:hidden;
+}
+
+.fade figcaption {
+background-color: rgba(223,230,76,.6);
+font-family: "Quicksand",sans-serif;
+font-weight: 400;
+font-size: 1.5em;
+line-height: 1.1em;
+text-align: center;
+letter-spacing: .01em;
+  position:absolute;
+  top:0px;
+  width:100%;
+  height:100%;
+  color: #525251;
+  line-height:250px;
+}
+
+.fade figcaption {
+  color: #535352;
+  opacity:0;
+  transition:opacity 0.5s ease;
+}
+
+.fade figcaption:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
 
 
 span {
@@ -205,12 +251,11 @@ margin-top: 35px;
 
 .aboutmecontainer {
 margin: 0 auto;
-width: 48em;
+max-width: 60%;
 }
 
 .aboutme-about {
 display: block;
-
 text-align: justify;
 font-family: "Lato",sans-serif;
 color: #4F4E4E;
@@ -221,16 +266,22 @@ padding: 1em;
 }
 
 .picofme {
-display: block;
-margin-left: 20em;
-margin-right: 26em;
+width: 60%;
 margin-bottom: 9em;
-
 }
+
+.picofme img {
+  max-width: 40%;
+  margin-right: 20em;
+  margin-left: 19em;
+}
+
+
 
 /* PERSONAL PROJECTS */
 
 .personalblurb {
+  width: 100%;
   padding-bottom: 3em;
 }
 
@@ -238,9 +289,10 @@ p {
 text-align: center;
 font-family: "Lato",sans-serif;
 color: #4F4E4E;
-font-size: 1.1em;
+font-size: 1em;
 font-weight: 300;
 }
+
 
 /* SOCIAL MEDIA */
 
@@ -266,22 +318,173 @@ margin-top: 1.1em;
 #socialmedia a:hover {
   opacity: .6;
  }
+ 
+ /*********************
+	Hamburger Menu
+**********************/
 
-@media only screen and (max-device-width: 768px) {
-
-body {
-  font-size: 14px;
+.mobile-nav {
+	display:none;
+}
+.menu-btn {
+	background:#D7E01F;
+  padding:1em;
+}
+.menu-btn div {
+	position: absolute;
+	left: 100%;
+	top: 64%;
+	padding-right: 8px;
+	margin-top: -0.50em;
+	line-height: 1.2;
+  
+	vertical-align: middle;
+	z-index: 99;
 }
 
-#MyWork, #imagelist {
-width: auto;
-text-align: center;
+.menu-btn span {
+	display: block;
+	width: 2em;
+	height: .25em;
+	margin: .25em 0;
+	background: rgb(255,255,255);
+	z-index: 99;
 }
 
-nav, .logo  {
-  float: left;
-  width: 25%;
+.responsive-menu{
+	display: none;
+}
+
+.expand {
+	display: block !important;
+	background: rgba(255,255,255,5);
+  opacity: .9;
+  font-family: "Quicksand",sans-serif;
+  font-size: 1.1em;
+	padding: 1.5em;
+}
+
+.responsive-menu ul {
+	list-style-type:none;
+
+}
+
+.responsive-menu a {
+  font-family: "Quicksand",sans-serif;
+text-transform: uppercase;
+font-weight: 300;
+font-size: 1.3em;
+line-height: 1.8em;
+letter-spacing: .02em;
+color: #525251;
+}
+
+
+@media only screen and (min-width:769px) and (max-width:1260px) {
+	#imagelist img {
+		width:50%;
+	}
+
+h1 {
+  font-size: 1.5em;
+}
+	#imagelist img {
+		width:100%;
+	}
+	.mobile-nav { 
+		display:block;
+		position:fixed; top:0; left:0; right:0;
+	}
+	nav { display:none; }
+}
+
+@media only screen and (max-width:769px) {
+  
+  #imagelist img {
+    width:50%;
+  }
+
+h1, h3 {
+  padding-top: 2.5em;
+  font-size: 1.5em;
+}
+
+  #imagelist img {
+    width:100%;
+  }
+
+  .project-container img {
+    width:50%;
+}
+
+  .mobile-nav { 
+    display:block;
+    position:fixed; top:0; left:0; right:0;
+  }
+  nav { display:none; }
+}
+
+@media only screen and (min-device-width : 320px) and (orientation: portrait) {
+  
+  #MyWork {
+  max-width: 100%;
+ padding: .8em;
+  margin: .6em;
+  }
+
+  #imagelist img {
+    max-width: 200%;
+    margin: auto, 0;
+   
+}
+
+
+.personalblurb {
+  font-size: .9em;
+  display: inline;
   text-align: center;
+  width: 70%;
+  padding-top: 6em;
+  padding-left: 5em;
+  
 }
 
+.personalprojects {
+  padding-bottom: 0em;
 }
+
+.project-container img {
+  width: 105%;
+
+}
+h1, h3 {
+  text-align: center;
+  font-size: 1.3em;
+  padding-left:.5em;
+  padding-top: 6em;
+}
+
+h3 {
+  margin-top: 0em;
+}
+
+  .mobile-nav { 
+    display:block;
+    position:fixed; top:0; left:0; right:0;
+  }
+
+  nav { display:none; }
+
+.aboutmecontainer {
+  width: 60%;
+}
+  .aboutme-about {
+    font-size: .8em
+  }
+
+  .picofme img {
+   display: none;
+  
+  }
+}
+

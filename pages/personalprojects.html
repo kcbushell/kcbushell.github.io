@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<title>Personal projects I Kirsten Bushell</title>
+		<title>Personal Projects I Kirsten Bushell</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-		<link rel="icon" href="../images/KirstenBushellfavicon.png" type="image/x-icon" />
+		<link rel="icon" href="images/KirstenBushellfavicon.png" type="image/x-icon" />
 		<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<header class="clearfix">
@@ -54,6 +55,23 @@
 			</div>
 			
 		</nav>
+		<div class="mobile-nav">
+			<div class="menu-btn" id="menu-btn">
+				<div></div>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="responsive-menu">
+				<ul>
+					<li><a href="homepage.html">Home</a></li>
+					<li><a href="./pages/currentwork.html">Current work</a></li>
+					<li><a href="./pages/personalprojects.html">Personal projects</a></li>
+					<li><a href="./pages/aboutme.html">A bit about me</a></li>
+					<li><a href="./pages/sayhello.html">Say hello</a></li>
+				</ul>
+			</div>
+		</div>
 	</header>
 
 <section>
@@ -62,7 +80,7 @@
 	<h1>Personal Projects</h1>
 	
 	<div class="personalblurb">
-<p> As well as enjoying design, I also have have written for a variety of online lifestyle and fashion titles. </p></div>
+<p>As well as enjoying design, I also have have written for a variety of online lifestyle and fashion titles.</p></div>
 
 <div class="personalprojects"</div>
 		<figure class="fade" alt="Emerald Street"><img class="project-images" src="../images/personalprojects/bunnychowreview.jpg" alt="Emerald Street food review for Bunnychow">
@@ -83,6 +101,19 @@
 	<a href="https://www.linkedin.com/in/kirstenbushell" target="_blank"><img src="../images/homepageimages/limelinkedin.png" alt="Connect with Linkedin">
 	</div>
 </footer>
-
+<script type="text/javascript">
+		jQuery(function($){
+			$( '.menu-btn' ).click(function(){
+				$( '.menu-btn' ).click(function(){
+    	    		$('.responsive-menu').toggleClass('expand')
+    	    	})
+			})
+     
+			$( '.close-btn' ).click(function(){
+				$('.responsive-menu').removeClass('expand')
+				$('.menu-btn').removeClass('btn-none')
+			})
+		})
+	</script>
 </body>
 </html>
