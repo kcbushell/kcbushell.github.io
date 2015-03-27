@@ -65,8 +65,8 @@ float: left;
 width: 6em;
 text-align: justify;
 padding-left: 1.5em;
-padding-top:1.3em;
-height: 2.7em;
+padding-top: 1.3em;
+height: 95px;
 }
 
 .nav-left-clear {
@@ -108,7 +108,7 @@ width: 6em;
 border-right: .05em solid #959595;
 text-align: justify;
 padding-top: 1.3em;
-height: 4.25em;
+height: 95px;
 }
 
 .nav-right-2 {
@@ -117,7 +117,7 @@ width: 6em;
 text-align: justify;
 padding-left: 1.5em;
 padding-top: 1.3em;
-height: 85px;
+height: 95px;
 }
 
 .nav-right-clear {
@@ -154,7 +154,7 @@ padding-bottom: 7%;
 #MyWork {
   max-width: 100%;
  padding: 2.5em;
-  margin: 4.5em;
+
   }
  
  #MyWork img {
@@ -266,14 +266,8 @@ padding: 1em;
 }
 
 .picofme {
-width: 60%;
-margin-bottom: 9em;
-}
-
-.picofme img {
-  max-width: 40%;
-  margin-right: 20em;
-  margin-left: 19em;
+  display: block;
+margin: 0 auto;
 }
 
 

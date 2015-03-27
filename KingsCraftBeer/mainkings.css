@@ -1,0 +1,404 @@
+/* MAIN */
+
+* {margin:0;padding:0;box-sizing:border-box;}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #FFFFFF;
+  font-size: 16px;
+}
+
+title {
+	text-transform: uppercase;
+}
+
+span {
+	font-size: 1.2em;
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+
+	}
+
+	ul
+{
+list-style-type: none;
+}
+
+span  {
+    font-weight: 900;
+
+}
+
+
+
+/* NAV */
+nav {	
+width: 50em;
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  height: 9em;
+  background: rgba(255,255,255,5);
+  opacity: .9;
+}
+
+.nav-left {
+float: left;
+width: 12em;
+margin-left: 1.7em;
+margin-top: 1.3em;
+}
+
+.nav-left a:link, .nav-left a:visited {
+font-family: 'Abel', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 1.3em;
+line-height: 1.1em;
+color: #535352;
+letter-spacing: .1em;
+}
+
+.nav-left a:hover {
+color: #CFB53B;
+-webkit-transition-timing-function: ease-out;
+-webkit-transition-duration: 500ms;
+}
+
+.nav-left-1 {
+float: left;
+width: 6em;
+border-right: .05em solid #959595;
+text-align: center;
+padding-top: 1.3em;
+height: 95px;
+}
+
+.nav-left-2 {
+float: left;
+width: 6em;
+text-align: center;
+padding-left: 1.7em;
+padding-top: 1.3em;
+height: 95px;
+}
+
+.nav-left-clear {
+clear: both;
+}
+
+.logo {
+	padding-left: 25em;
+float: left;
+width: 50%;
+}
+
+.nav-right {
+float: right;
+width: 12em;
+margin-right: 4.3em;
+margin-top: 1.3em;
+}
+
+.nav-right a:link, .nav-right a:visited {
+font-family: 'Abel',sans-serif;
+font-weight: 400;
+font-size: 1.3em;
+line-height: 1.1em;
+color: #535352;
+letter-spacing: .05em;
+}
+
+.nav-right a:hover {
+color: #CFB53B;
+-webkit-transition-timing-function: ease-out;
+-webkit-transition-duration: 500ms;
+}
+
+.nav-right-1 {
+float: left;
+width: 6em;
+border-right: .05em solid #959595;
+text-align: center;
+padding-top: 1.3em;
+height: 95px;
+}
+
+.nav-right-2 {
+float: right;
+width: 6em;
+text-align: center;
+padding-left: 2em;
+padding-top: 1.3em;
+height: 95px;
+}
+
+.nav-right-clear {
+clear: both;
+}
+
+.nav-clear {
+clear: both;
+}
+
+
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+/* HOMEPAGE */
+
+.home-banner {
+	padding-top: 10em;
+	display: block;
+	margin: 0 auto;
+}
+
+.home-banner img {
+width: 100%;
+height: 100%;
+}
+
+
+
+
+h1 {
+	color: rgb(16,36,61);
+	font-size: 2.5em;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Bitter' sans-serif;
+	font-weight: 400;
+	padding-top: 3em;
+	padding-bottom: 1em;
+}
+
+h3 {
+	color: #535352;
+	font-family: 'Lato' sans-serif;
+	font-size: 2.2em;
+	font-weight: 300;
+	text-align: left;
+	text-transform: uppercase;
+	padding-top: 3.2em;
+}
+
+p {
+	display: block;
+	margin: 0 auto;
+	font-family: 'Abel' sans-serif;
+	font-size: 1.2em;
+	font-weight: 800;
+	text-align: justify;
+	width: 80%;
+
+}
+
+ .Lionheart {
+	
+}
+
+.Lionheart img {
+	float:left;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	padding-right: 5em;
+	padding-left: 5em;
+	max-width: 100%;
+}
+
+.Lionheart p {
+	padding-top: 1em;
+	display: block;
+	margin: 0 auto;
+	font-family: 'Abel' sans-serif;
+	font-size: 1.2em;
+	font-weight: 800;
+	text-align: justify;
+	}
+
+
+
+#beerdetails a {
+margin-top: 4em;
+}
+
+
+.button {
+	padding-top: 10em;
+	border: 1.5px solid;
+	border-color: #535352;
+    display: inline-block;
+    padding: 1em;
+    font-family: 'Hind' sans-serif;
+    font-weight: 800;
+    letter-spacing: .1em;
+   text-decoration: none;
+    color: black;
+}
+
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #535352;
+  color: white;
+}
+
+/* Stockists */
+
+table, tr {
+	font-size: 1.2em;
+}
+
+
+table {
+	width:150%;
+padding-left: 25em;
+padding-right: 25em;
+	margin: 0 auto;
+	font-family: 'Abel' sans-serif;
+	font-size: 1.2em;
+
+}
+
+/* Single page scrolling */
+
+#page1 {
+	height: auto;
+}
+#page2 {
+	padding-bottom: 6em;
+	height: auto;
+	
+}
+#page3 {
+	height: auto;
+}
+
+#page4 {
+	height: auto;
+}
+
+#socialmedia {
+	width: 100%;
+	display: block;
+	padding-left: 22em;
+	margin: 5em ;
+}
+
+#socialmedia a:hover {
+  opacity: .6;
+ }
+
+/*********************
+	Hamburger Menu
+**********************/
+
+.mobile-nav {
+	display:none;
+}
+.menu-btn {
+	background:rgb(16,36,61);
+  padding:1em;
+}
+.menu-btn div {
+	position: absolute;
+	left: 100%;
+	top: 64%;
+	padding-right: 8px;
+	margin-top: -0.50em;
+	line-height: 1.2;
+  
+	vertical-align: middle;
+	z-index: 99;
+}
+
+.menu-btn span {
+	display: block;
+	width: 2em;
+	height: .25em;
+	margin: .25em 0;
+	background: rgb(255,255,255);
+	z-index: 99;
+}
+
+.responsive-menu{
+	display: none;
+}
+
+.expand {
+	display: block !important;
+	background: rgba(255,255,255,5);
+  opacity: .9;
+  font-family: "Bitter",sans-serif;
+  font-size: 1.1em;
+	padding: 1.5em;
+}
+
+.responsive-menu ul {
+	list-style-type:none;
+
+}
+
+.responsive-menu a {
+  font-family: "Abel",sans-serif;
+text-transform: uppercase;
+font-weight: 300;
+font-size: 1.4em;
+line-height: 1.8em;
+letter-spacing: .02em;
+color: #525251;
+}
+
+
+@media only screen and (max-width:769px) {
+  
+  #imagelist img {
+    width:50%;
+  }
+
+h1, h3 {
+  padding-top: 2.5em;
+  font-size: 1.5em;
+}
+
+  #imagelist img {
+    width:100%;
+  }
+
+  .project-container img {
+    width:50%;
+}
+
+  .mobile-nav { 
+    display:block;
+    position:fixed; top:0; left:0; right:0;
+  }
+  nav { display:none; }
+}
