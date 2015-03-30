@@ -8,9 +8,6 @@ body {
   font-size: 20px;
 }
 
-title {
-	text-transform: uppercase;
-}
 
 span {
 	text-decoration: underline;
@@ -185,13 +182,21 @@ margin: 0 auto;
 
 }
 .project-images {
+  padding-top: 2em;
 margin: 0, auto;
 width: 960px;
-padding-bottom: 30px;
+
 }
 
 .personalprojects {
   padding-bottom: 1em;
+}
+
+.personalprojects p {
+  margin: 2em;
+  font-style: italic;
+  font-size: .9em;
+  text-align: justify;
 }
 
 figure {
@@ -200,14 +205,14 @@ figure {
   height: auto;
   position:relative;
   overflow:hidden;
+  
 }
 
 .fade figcaption {
 background-color: rgba(223,230,76,.6);
 font-family: "Quicksand",sans-serif;
 font-weight: 400;
-font-size: 1.5em;
-line-height: 1.1em;
+font-size: 2em;
 text-align: center;
 letter-spacing: .01em;
   position:absolute;
@@ -215,7 +220,8 @@ letter-spacing: .01em;
   width:100%;
   height:100%;
   color: #525251;
-  line-height:250px;
+  line-height:750px;
+  
 }
 
 .fade figcaption {
@@ -254,18 +260,20 @@ margin: 0 auto;
 max-width: 60%;
 }
 
-.aboutme-about {
+.aboutme-about p {
 display: block;
 text-align: justify;
 font-family: "Lato",sans-serif;
 color: #4F4E4E;
 font-size: 1em;
-line-height: 1.6em;
+line-height: 1.4em;
 margin-bottom: 2.25em;
 padding: 1em;
 }
 
-.picofme {
+.picofme img {
+  border-radius: 125px;
+  width: 30%;
   display: block;
 margin: 0 auto;
 }
@@ -376,7 +384,7 @@ color: #525251;
 
 @media only screen and (min-width:769px) and (max-width:1260px) {
 	#imagelist img {
-		width:50%;
+		width:30%;
 	}
 
 h1 {

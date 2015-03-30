@@ -31,11 +31,37 @@ header {
   z-index: 99;
   background: rgba(255,255,255,5);
   opacity: .9;
-  padding:1em;
+  width: 100%
 }
+
 nav {
 	float:right;
+	margin: 3.5em;
 }
+
+nav a {
+	font-family: 'Abel' sans-serif;
+	color: #535352;
+	font-size: 1.2em;
+	margin: 3em;
+}
+
+nav a:link a:visited {
+font-family: 'Abel', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 1.3em;
+line-height: 1.1em;
+color: #535352;
+letter-spacing: .1em;
+}
+
+a:hover {
+color: #CFB53B;
+-webkit-transition-timing-function: ease-out;
+-webkit-transition-duration: 500ms;
+}
+
 .logo {
 	float: left;
 	width: 200px;
@@ -158,7 +184,6 @@ height: 100%;
 
 
 
-
 h1 {
 	color: rgb(16,36,61);
 	font-size: 2.5em;
@@ -166,33 +191,42 @@ h1 {
 	text-transform: uppercase;
 	font-family: 'Bitter' sans-serif;
 	font-weight: 400;
-	padding-top: 3em;
+	padding-top: 1.5em;
 	padding-bottom: 1em;
 }
 
 h3 {
+
 	color: #535352;
 	font-family: 'Lato' sans-serif;
 	font-size: 2.2em;
 	font-weight: 300;
 	text-align: left;
 	text-transform: uppercase;
-	padding-top: 3.2em;
+}
+
+h4 {
+	color: white;
 }
 
 p {
+	padding: 0 3em 6em 3em;
 	display: block;
 	margin: 0 auto;
 	font-family: 'Abel' sans-serif;
 	font-size: 1.2em;
 	font-weight: 800;
 	text-align: justify;
-	width: 80%;
+	width: 60%;
 
 }
+.Lionheart {
+	max-width: 1200px;
+margin: 0 auto;
+}
 
- .Lionheart {
-	
+.Lionheart a {
+margin: 0 auto;
 }
 
 .Lionheart img {
@@ -200,12 +234,12 @@ p {
 	padding-top: 2em;
 	padding-bottom: 2em;
 	padding-right: 5em;
-	padding-left: 5em;
-	max-width: 100%;
+	padding-left: 10em;
+	max-width: 120%;
 }
 
 .Lionheart p {
-	padding-top: 1em;
+	
 	display: block;
 	margin: 0 auto;
 	font-family: 'Abel' sans-serif;
@@ -215,14 +249,7 @@ p {
 	}
 
 
-
-#beerdetails a {
-margin-top: 4em;
-}
-
-
 .button {
-	padding-top: 10em;
 	border: 1.5px solid;
 	border-color: #535352;
     display: inline-block;
@@ -254,21 +281,17 @@ margin-top: 4em;
   color: white;
 }
 
+
+
 /* Stockists */
 
-table, tr {
-	font-size: 1.2em;
-}
 
-
-table {
-	width:150%;
-padding-left: 25em;
-padding-right: 25em;
-	margin: 0 auto;
-	font-family: 'Abel' sans-serif;
-	font-size: 1.2em;
-
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
 }
 
 /* Single page scrolling */
