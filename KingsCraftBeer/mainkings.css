@@ -31,19 +31,19 @@ header {
   z-index: 99;
   background: rgba(255,255,255,5);
   opacity: .9;
-  width: 100%
+  width: 100%;
 }
 
 nav {
-	float:right;
-	margin: 3.5em;
+	float: right;
+	margin: 2.5em;
 }
 
 nav a {
 	font-family: 'Abel' sans-serif;
 	color: #535352;
-	font-size: 1.2em;
-	margin: 3em;
+	font-size: 1.6em;
+	padding: 2.1em;
 }
 
 nav a:link a:visited {
@@ -66,6 +66,8 @@ color: #CFB53B;
 	float: left;
 	width: 200px;
 }
+
+
 /*.nav-left {
 float: left;
 width: 12em;
@@ -171,6 +173,12 @@ clear: both;
 
 /* HOMEPAGE */
 
+.homewrapper img {
+	display: block;
+	margin: 0 auto;
+	max-width: 95%;
+}
+
 .home-banner {
 	padding-top: 10em;
 	display: block;
@@ -210,7 +218,7 @@ h4 {
 }
 
 p {
-	padding: 0 3em 6em 3em;
+	padding: 0 3em 3em 3em;
 	display: block;
 	margin: 0 auto;
 	font-family: 'Abel' sans-serif;
@@ -225,13 +233,18 @@ p {
 margin: 0 auto;
 }
 
+.Lionheart h3{
+	padding-bottom: 1em;
+}
+
 .Lionheart a {
 margin: 0 auto;
+
 }
 
 .Lionheart img {
 	float:left;
-	padding-top: 2em;
+	
 	padding-bottom: 2em;
 	padding-right: 5em;
 	padding-left: 10em;
@@ -259,6 +272,7 @@ margin: 0 auto;
     letter-spacing: .1em;
    text-decoration: none;
     color: black;
+
 }
 
 .hvr-fade {
@@ -281,7 +295,13 @@ margin: 0 auto;
   color: white;
 }
 
+.homewrapper iframe {
+	
+	width: 80%;
+	display: block;
+	margin: 0 auto;
 
+}
 
 /* Stockists */
 
@@ -308,10 +328,9 @@ margin: 0 auto;
 }
 
 #socialmedia {
-	width: 100%;
+text-align: center;
 	display: block;
-	padding-left: 22em;
-	margin: 5em ;
+	margin: auto 0;	
 }
 
 #socialmedia a:hover {
