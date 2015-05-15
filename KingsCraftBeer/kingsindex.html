@@ -18,7 +18,8 @@
 </head>
 <body>
 	<header class="clearfix">
-		<a href="kingsindex.html"><img src="kingscraftlogo.jpg" alt="Home"></a>
+		<div class="logo">
+		<a href="kingsindex.html"><img src="Sm_KingsLogo.jpg" alt="Home"></a></div>
 		<nav class="fixed-nav-bar">
 			<a href="#page1">KINGS CRAFT BEER</a>
 			<a href="#page2">BREW LOCATOR</a>
@@ -99,7 +100,20 @@ Like the King himself, LionHeart is bold and uncompromising. A premium all malt 
 			<a href="mailto:cliff@kingscraftbeer.co.za?Subject=Hello%20again" target="_top"><img src="../KingsCraftBeer/email_gold.png"alt="Email Cliff Fitzhenry"></a>
 		</div>
 	</section>
-
+<script type="text/javascript">
+		jQuery(function($){
+			$( '.menu-btn' ).click(function(){
+				$( '.menu-btn' ).click(function(){
+    	    		$('.responsive-menu').toggleClass('expand')
+    	    	})
+			})
+     
+			$( '.close-btn' ).click(function(){
+				$('.responsive-menu').removeClass('expand')
+				$('.menu-btn').removeClass('btn-none')
+			})
+		})
+	</script>
 	
 <!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 <script type="text/javascript">
