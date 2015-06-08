@@ -172,8 +172,14 @@ padding-bottom: 7%;
  
  /* CURRENT WORK */
 
+
 .project-container {
   max-width: 960px;
+margin: 0 auto;
+}
+
+.project-containerA {
+  max-width: 800px;
 margin: 0 auto;
 }
 
@@ -188,6 +194,11 @@ width: 960px;
 
 }
 
+.project-gif  {
+  padding-top: 3em;
+  margin: 0 auto;
+  width: 20%;
+}
 .personalprojects {
   padding-bottom: 1em;
 }
@@ -418,6 +429,16 @@ h1, h3 {
   .project-container img {
     width:50%;
 }
+
+.project-gif  {
+width: 50%;
+margin: 0 auto;
+}
+.project-gif img {
+width: 100%;
+
+}
+
 
   .mobile-nav { 
     display:block;
