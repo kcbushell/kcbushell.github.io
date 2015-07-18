@@ -1,0 +1,197 @@
+/* MAIN */
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #FFFFFF;
+  font-size: 20px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+/* NAV */
+
+nav {
+margin: 0 auto;
+}
+
+.nav-item {
+	display: inline-block;
+}
+
+.nav a:link, a:visited {
+font-family: 'Open Sans', sans-serif;
+color: rgb(0,0,0);
+font-size: .7em;
+letter-spacing: 2px;
+font-weight: 400;
+line-height: 1.3em;
+text-align: center;
+text-transform: uppercase;
+}
+
+.nav a:hover {
+color:#7FC6B2;
+
+-webkit-transition-timing-function: ease-out;
+-webkit-transition-duration: 500ms;
+}
+
+.primary-wrapper {
+width: 100%;
+max-width: 1100px;
+margin: 0 auto;
+text-align: center;
+}
+
+.primary-wrapper img {
+	width: 80%;
+}
+
+.primary-wrapper a:hover img {
+	opacity: .8;
+}
+
+.nav-list {
+	list-style-type: none;
+	
+	margin: 0 auto;
+	padding: 0 2em;
+}
+
+.nav-link a {
+	text-decoration: none;
+	color: black;
+}
+.nav-link {
+	padding: 3.8em 2em 1.3em 2em;
+	display: block;
+	text-decoration: none;
+}
+
+/* MAIN */
+
+h1 {
+	font-family: 'Lato';
+	font-weight: 300;
+	font-size: 1em;
+}
+
+.mainimage {
+	padding-top: 1em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mainimage img {
+	padding-top: 2em;
+}
+
+
+.mainimage a:hover img {
+	opacity: .8;
+}
+
+.home-divider {
+	background: #7FC6B2;
+	margin: 0 auto;
+width:80px;
+height:5px;
+margin-top: 63px;
+	margin-bottom: 65px;
+}
+
+
+.page-title-container {
+	max-width: 960px;
+	position: relative;
+	z-index: 99999;
+	width: 86%;
+	margin: 0 auto;
+	text-align: center;
+	background: rgba(255,255,255,);
+	margin-top: -110px;
+	padding-top: 50px; 
+}
+
+.page-title {
+	font-family: 'Abril Fatface';
+	font-size: 3.5em;
+	line-height: 1.2em;
+	letter-spacing: 0.07em;
+}
+
+li {
+
+list-style-type: none;
+}
+
+.home-featured-container {
+	max-width: 86%;
+	margin: 0 auto;
+	margin-top: 2em;
+}
+
+.home-featured ul {
+	list-style-type: none;
+	display: block;
+}
+
+.home-featured li {
+	float: left;
+	width: 30%;
+	margin: 1em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.home-featured li img {
+	width: 100%;
+}
+
+.home-featured a:hover img {
+	opacity: .8;
+}
+
+div {
+	display: block;
+}
+
+figure {
+  vertical-align:top;
+  max-width:auto;
+  height: auto;
+  position:relative;
+  overflow:hidden; 
+}
+
+.fade figcaption {
+font-family: "Quicksand",sans-serif;
+font-weight: 400;
+font-size: 2em;
+text-align: center;
+letter-spacing: .01em;
+  position:absolute;
+  top:0px;
+  width:100%;
+  height:100%;
+  color: white;
+  line-height:950px;
+}
+
+.fade figcaption {
+  color: white;
+  opacity:0;
+  transition:opacity 0.5s ease;
+}
+
+.fade figcaption:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+
