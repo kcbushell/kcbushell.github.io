@@ -178,21 +178,37 @@ padding-bottom: 7%;
 margin: 0 auto;
 }
 
-.project-containerA {
-  max-width: 800px;
-margin: 0 auto;
-}
+
 
 .project-container img {
   width:100%;
+}
+
+.project-container-2 {
+   margin: 0, auto;
+}
+
+.project-container-2 img {
+  width:70%;
+  margin: 0, auto;
 
 }
+
 .project-images {
   padding-top: 2em;
 margin: 0, auto;
 width: 960px;
-
 }
+
+.project-images-small {
+  padding-top: 2em;
+margin: 0, auto;
+}
+
+.project-images-small img {
+  margin: 0, auto;
+}
+
 
 .project-gif  {
   padding-top: 3em;
