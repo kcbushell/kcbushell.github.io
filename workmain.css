@@ -1,0 +1,399 @@
+/* MAIN */
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #FFFFFF;
+  font-size: 20px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+text-align: center;
+font-family: 'Quicksand', sans-serif;
+text-transform: uppercase;
+font-weight: 300;
+font-size: 2em;
+line-height: 1.8em;
+letter-spacing: .03em;
+color: #525251;
+padding-top: 2em;
+}
+
+
+h2 {
+	text-align: center;
+	font-size: 5em;
+font-family: 'Quicksand', sans-serif;
+text-transform: uppercase;
+font-weight: 300;
+font-size: 1em;
+padding-top: 2em;
+
+}
+
+h3 {
+text-align: center;
+font-family: "Open Sans",sans-serif;
+text-transform: uppercase;
+font-weight: 300;
+font-size: 1em;
+line-height: 1.2em;
+letter-spacing: .02em;
+color: #525251;
+
+}
+
+p {
+	text-align: center;
+	font-family: 'Open Sans' sans-serif;
+	font-size: .7em;
+	letter-spacing: .07em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+
+}
+
+/* NAV */
+
+nav {
+margin: 0 auto;
+}
+
+.nav-item {
+	display: inline-block;
+}
+
+.nav a:link, a:visited {
+font-family: 'Open Sans', sans-serif;
+color: rgb(0,0,0);
+font-size: .7em;
+letter-spacing: 2px;
+font-weight: 400;
+line-height: 1.3em;
+text-align: center;
+text-transform: uppercase;
+}
+
+.nav a:hover {
+color: rgb(200,184,32);
+}
+
+.nav-list {
+	list-style-type: none;
+	
+	margin: 0 auto;
+	padding: 0 2em;
+}
+
+.nav-link a {
+	text-decoration: none;
+	color: black;
+}
+.nav-link {
+	padding: 3.8em 2em 1.3em 2em;
+	display: block;
+	text-decoration: none;
+}
+
+.primary-wrapper img {
+	padding-top: 2em;
+width: 70%;
+}
+
+/* STRUCTURE */
+.primary-wrapper {
+width: 100%;
+max-width: 1100px;
+margin: 0 auto;
+text-align: center;
+padding-bottom: 1em;
+}
+
+.logo-wrapper {
+	width: 100%;
+max-width: 1100px;
+margin: 0 auto;
+text-align: center;
+padding-bottom: 1em;
+
+}
+
+.contactme {
+	width: 80%;
+	max-width: 1100px;
+	margin: 0 auto;
+text-align: center;
+padding-bottom: 2em;
+
+}
+
+div {
+  display: block;
+}
+
+
+#MyWork {
+  max-width: 100%;
+ padding: 2.5em;
+
+  }
+ 
+ #MyWork img {
+  width: 100%;
+ }
+
+ #imagelist {
+  font-size: 0;
+  max-width: 1400px;
+  margin: 0 auto;
+ }
+#imagelist img {
+	width: 33.33%;
+}
+ #imagelist a:hover {
+  opacity: .5;
+ }
+
+
+.work-container {
+ max-width:1200px;
+padding-top: 5em;
+padding-bottom: 5em;
+margin: 0 auto;
+text-align: center;
+}
+
+.work-grid {
+list-style-type: none;
+}
+
+.work-grid img {
+width: 100%;
+}
+
+
+.work-grid ul img {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.work-grid li {
+  display: inline-block;
+  margin-right: 1%;
+  margin-bottom: 1%;
+}
+
+
+.project-container {
+  max-width: 1000px;
+margin: 0 auto;
+}
+
+
+.project-gif  {
+  margin: 0 auto;
+  width: 40%;
+  padding-bottom: 4em;
+}
+.project-container img {
+  width:90%;
+}
+
+.project-container-2 {
+   margin: 0 auto;
+}
+
+.project-container-2 img {
+  width:70%;
+  margin: 0 auto;
+
+}
+
+.project-images {
+  padding-top: 2em;
+margin: 0, auto;
+width: 960px;
+}
+
+.picofme img {
+  padding-bottom: 2em;
+  width: 50%;
+  display: block;
+margin: 0 auto;
+}
+
+
+/* FOOTER */
+
+#socialmedia {
+  display: block;
+  text-align: center;
+   padding: 1.5em;
+
+}
+
+#socialmedia a:hover {
+  opacity: .6;
+ }
+
+ #footer {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	clear: left;
+	width: 100%;
+	text-align: center;
+}
+
+#footer img {
+	
+	opacity: 1.0%;
+	width: 35px;
+	height: 35px;
+}
+
+/*********************
+	Hamburger Menu
+**********************/
+
+.mobile-nav {
+	display:none;
+}
+.menu-btn {
+	background: rgb(200,184,32);
+  padding:1em;
+}
+.menu-btn div {
+	position: absolute;
+	left: 100%;
+	top: 64%;
+	padding-right: 8px;
+	margin-top: -0.50em;
+	line-height: 1.2;
+  
+	vertical-align: middle;
+	z-index: 99;
+}
+
+.menu-btn span {
+	display: block;
+	width: 2em;
+	height: .25em;
+	margin: .25em 0;
+	background: rgb(255,255,255);
+	z-index: 99;
+}
+
+.responsive-menu{
+	display: none;
+}
+
+.expand {
+	display: block !important;
+	background: rgba(255,255,255,5);
+  opacity: .9;
+  font-family: "Quicksand",sans-serif;
+  font-size: 1.1em;
+	padding: 1.5em;
+}
+
+.responsive-menu ul {
+	list-style-type:none;
+
+}
+
+.responsive-menu a {
+  font-family: "Quicksand",sans-serif;
+text-transform: uppercase;
+font-weight: 300;
+font-size: 1.3em;
+line-height: 1.8em;
+letter-spacing: .02em;
+color: #525251;
+}
+
+
+
+/* MOBILE */
+
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+
+.mobile-nav { 
+display:block;
+position:fixed; top:0; left:0; right:0;
+  }
+
+nav { display:none; }
+
+.logo-wrapper {
+	padding-top: 3em;
+}
+
+}
+
+/* iPhone 5 portrait */
+@media only screen and (min-device-width : 320px) and (orientation: portrait) {
+	.mobile-nav { 
+display:block;
+position:fixed; top:0; left:0; right:0;
+  }
+
+nav { display:none; }
+
+.logo-wrapper {
+	padding-top: 3em;
+	width: 100%;
+}
+
+.logo-wrapper img {
+	padding-top: 2em;
+	max-width: 100%;
+	padding-bottom: 1em;
+}
+h1 {
+	font-size: 1em;
+}
+
+p {
+	padding-left: .9em;
+	padding-right: .9em;
+}
+}
+
+
+@media only screen and (min-device-height : 1024px) and (orientation: landscape) {
+
+	.logo-wrapper {
+	padding-top: 3em;
+	width: 100%;
+}
+
+.logo-wrapper img {
+	max-width: 100%;
+	padding-bottom: 1em;
+}
+
+
+
+@media only screen and (max-width:769px) {
+
+	.mobile-nav { 
+    display:block;
+    position:fixed; top:0; left:0; right:0;
+  }
+  nav { display:none; }
+
+  .logo-wrapper {
+  	padding-top: 5em;
+  }
+
+}
+
